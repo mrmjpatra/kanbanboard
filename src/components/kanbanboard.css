@@ -1,0 +1,30 @@
+.kanban__container {
+    margin-top: 1.4rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1rem;
+}
+
+.kanban__container div.source {
+    height: 100vh;
+}
+
+.MuiCard-root {
+    height: 100px;
+    display: flex;
+    background-color: whitesmoke !important;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.MuiCardContent-root .css-46bh2p-MuiCardContent-root{
+    padding: 0 !important;
+}
+.add-btn{
+    text-align: center;
+    margin: 1rem 0;
+}
